@@ -1,0 +1,86 @@
+body{
+    background-image: url(pol.jpg);
+    background-size: cover;
+    background-position: center;
+}
+a{
+        color: rgb(0, 113, 133);
+    }
+    img{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 200px;
+    }
+    .nike{
+        font-size: larger;
+        font-weight: bold;
+    }
+    .in{
+        color: rgb(0, 118, 0);
+        font-weight: bold;
+    }
+    .free{
+        font-weight: bold;
+    }
+    .add{
+        background-color: rgb(255, 216, 20);
+        border: none;
+        height: 36px;
+        width: 150px;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.35s;
+        transition: box-shadow o.35s;
+        
+    }
+    a:hover{
+        color: red;
+    }
+    .add:hover{
+        opacity: 0.4;
+         box-shadow :  3px 4px 0px rgba(0, 0, 0, 0.15); 
+    }
+    .add:active{
+        background-color: white;
+    }
+    .buy{
+        background-color: #ffa41c;
+        height: 36px;
+        width: 100px;
+        border: 1px solid #ffa41c;
+        border-radius: 18px;
+        font-weight: bold;
+        transition: background-color 0.5s;
+        transition: width 0.5s;
+        cursor: pointer;
+        margin-right: 350px;
+    }
+    .buy:hover{
+        background-color:#ffa41ce2 ;
+        width: 105px;
+    }
+    .buy:active{
+        opacity: 0.5;
+    }
+    .pos{
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    }
+    input{
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        background-color: #ff8f00;
+    }
+    .Post{
+        border: none;
+        background-color: blue;
+        color: white;
+        border-radius: 8px;
+        cursor: not-allowed;
+    }
